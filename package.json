@@ -1,19 +1,41 @@
 {
   "name": "@develersrl/hivejs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "exit 0"
+    "test-build": "tsc --p ./tsconfig.json --noEmit",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/develersrl/hivejs.git"
   },
-  "author": "Tommaso Visconti <tommyblue@develer.com>",
-  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
   "bugs": {
     "url": "https://github.com/develersrl/hivejs/issues"
   },
-  "homepage": "https://github.com/develersrl/hivejs#readme"
+  "homepage": "https://github.com/develersrl/hivejs#readme",
+  "contributors": [
+    "Gennaro Bosone <genbs@develer.com>",
+    "Francesco Cambi <fcambi@develer.com>",
+    "Tommaso Visconti <tommyblue@develer.com>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.0",
+    "@types/react-test-renderer": "^17.0.1",
+    "babel-jest": "^27.4.6",
+    "jest": "^27.4.5",
+    "react-test-renderer": "^17.0.2"
+  },
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.6.6"
+  }
 }
