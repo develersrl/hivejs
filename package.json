@@ -1,0 +1,19 @@
+{
+  "name": "@develersrl/hivejs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/develersrl/hivejs.git"
+  },
+  "author": "Tommaso Visconti <tommyblue@develer.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/develersrl/hivejs/issues"
+  },
+  "homepage": "https://github.com/develersrl/hivejs#readme"
+}
