@@ -1,11 +1,13 @@
 {
   "name": "@develersrl/hivejs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test-build": "tsc --p ./tsconfig.json --noEmit",
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -29,10 +31,12 @@
     "@babel/preset-react": "^7.16.7",
     "@babel/preset-typescript": "^7.16.7",
     "@types/jest": "^27.4.0",
+    "@types/node-fetch": "^2.6.2",
     "@types/react-test-renderer": "^17.0.1",
     "babel-jest": "^27.4.6",
     "jest": "^27.4.5",
-    "react-test-renderer": "^17.0.2"
+    "react-test-renderer": "^17.0.2",
+    "typescript": "4.6"
   },
   "dependencies": {
     "form-data": "^4.0.0",
